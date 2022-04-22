@@ -1,11 +1,12 @@
 .App {
   text-align: center;
+  border: 3px solid rgb(38, 38, 38);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  transform: perspective(150px) rotateX(-20deg);
+  transform: perspective(300px) rotateX(10deg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-  background-color: rgb(244, 227, 227);
+  background-color: rgb(237, 242, 213);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   justify-content: center;
   font-size: 30px;
   color: rgb(38, 38, 38);
+  text-decoration: underline;
 }
 
 @keyframes Title-shot {
