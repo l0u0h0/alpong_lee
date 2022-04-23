@@ -1,4 +1,5 @@
 import logo from "./images/beargroup.jpeg";
+import logo_before from "./images/logo_before.png";
 import header from "./images/header.png";
 import "./css/App.css";
 import "./css/MainComponent.css";
@@ -16,6 +17,7 @@ function App() {
       </header>
       <div className="body">
         <div className="App-body">
+          <img src={logo_before} className="App-logo" alt="logo" />
           <img src={logo} className="App-logo" alt="logo" />
           <p>간장 공장 공장장 강공장장</p>
           <MainComponent />
