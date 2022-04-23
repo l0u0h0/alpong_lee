@@ -1,41 +1,3 @@
-.App {
-  text-align: center;
-  border: 3px solid rgb(38, 38, 38);
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  transform: perspective(300px) rotateX(10deg);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  p {
-    animation: Title-shot infinite 3s alternate;
-  }
-}
-
-.App-header {
-  background-color: rgb(237, 242, 213);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  color: rgb(38, 38, 38);
-  text-decoration: underline;
-}
-
-@keyframes Title-shot {
-  from {
-    margin-left: 25%;
-  }
-  to {
-    margin-right: 25%;
-  }
-}
-
 @keyframes rint {
   from {
     transform: rotateY(0deg);
@@ -72,7 +34,7 @@
   width: 230px;
   height: 150px;
   margin-bottom: 5px;
-  background: url("./images/logo.jpg");
+  background: url("../images/logo.jpg");
   background-size: 100% 100%;
   transition-duration: 0.5s;
 }
