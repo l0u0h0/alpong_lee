@@ -60,18 +60,36 @@
   }
 }
 
-.App-body-btn {
+.App-body-header {
   width: 100%;
   margin-top: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-body-btn .btn-area {
+.App-body-header .my-profile {
+  width: 400px;
+  height: 400px;
+  margin: 0 30% 0 20%;
+  padding: 50px;
+  border-radius: 10%;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.App-body-header .my-profile .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.App-body-header .btn-area {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.App-body-btn .btn-area .btn {
+.App-body-header .btn-area .btn {
   margin: 10px 0 0 80%;
   width: 100px;
   height: 50px;

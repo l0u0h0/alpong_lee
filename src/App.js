@@ -15,7 +15,10 @@ function App() {
         </div>
       </header>
       <div className="body">
-        <div className="App-body-btn">
+        <div className="App-body-header">
+          <div className="my-profile">
+            <img className="profile-img" alt="" src={logo} />
+          </div>
           <div className="btn-area">
             <button className="btn">Click Me!</button>
             <button className="btn">Click Me!</button>
