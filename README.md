@@ -1,3 +1,3 @@
 # Getting Started with Alpong-Project
 
-site view => [ALPONGLEE]("https://alponglee.netlify.app/")
+[ALPONGLEE](https://alpong-lee.netlify.app/)
