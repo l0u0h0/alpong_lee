@@ -3,14 +3,16 @@
 }
 
 body {
-  background-color: rgb(237, 242, 213);
+  background-color: white;
 }
 
 .App-body {
+  margin-top: 150px;
   font-size: 30pt;
 }
 
 .App-logo {
+  border-radius: 15px;
   height: 40vmin;
   pointer-events: none;
   transform: perspective(300px) rotateX(10deg);
