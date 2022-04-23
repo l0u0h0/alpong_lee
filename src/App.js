@@ -15,6 +15,11 @@ function App() {
         </div>
       </header>
       <div className="body">
+        <div className="App-body">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>간장 공장 공장장 강공장장</p>
+          <MainComponent />
+        </div>
         <div className="App-body-header">
           <div className="my-profile">
             <img className="profile-img" alt="" src={logo} />
@@ -23,11 +28,6 @@ function App() {
             <button className="btn">Click Me!</button>
             <button className="btn">Click Me!</button>
           </div>
-        </div>
-        <div className="App-body">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>간장 공장 공장장 강공장장</p>
-          <MainComponent />
         </div>
       </div>
       <footer>
