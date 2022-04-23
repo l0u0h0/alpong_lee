@@ -1,8 +1,14 @@
 /* FOOTER */
 
 .btn.btn--white {
+  text-decoration: none;
   color: #fff;
   border-color: #fff;
+}
+
+.btn.btn--white:hover {
+  color: #333;
+  background-color: #fff;
 }
 
 footer {
@@ -15,6 +21,7 @@ footer .inner {
 footer .menu {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 footer .menu li {
   position: relative;
@@ -39,9 +46,6 @@ footer .menu li a {
   font-weight: 700;
   padding: 15px;
   display: block;
-}
-footer .menu li a.green {
-  color: #669900;
 }
 footer .btn-group {
   margin-top: 20px;
@@ -72,7 +76,4 @@ footer .copyright {
   font-size: 12px;
   text-align: center;
   margin-top: 12px;
-}
-footer .logo {
-  margin: 30px auto 0;
 }
