@@ -5,6 +5,8 @@ import "./css/App.css";
 import "./css/MainComponent.css";
 import "./css/Footer.css";
 import "./css/News.css";
+import "./js/News";
+import Swiper from "swiper";
 import MainComponent from "./components/MainComponent";
 import NewsApi from "./components/NewsApi";
 
@@ -25,7 +27,12 @@ function App() {
           <MainComponent />
         </div>
         <div className="App-body-header">
-          <NewsApi />
+          <div className="News">
+            <div className="swiper">
+              <NewsApi />
+            </div>
+            <div className="swiper-pagination"></div>
+          </div>
         </div>
       </div>
       <footer>
