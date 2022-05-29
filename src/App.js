@@ -4,7 +4,9 @@ import header from "./images/header.png";
 import "./css/App.css";
 import "./css/MainComponent.css";
 import "./css/Footer.css";
+import "./css/News.css";
 import MainComponent from "./components/MainComponent";
+import NewsApi from "./components/NewsApi";
 
 function App() {
   const thisYear = new Date().getFullYear();
@@ -23,13 +25,7 @@ function App() {
           <MainComponent />
         </div>
         <div className="App-body-header">
-          <div className="my-profile">
-            <img className="profile-img" alt="" src={logo} />
-          </div>
-          <div className="btn-area">
-            <button className="btn">Click Me!</button>
-            <button className="btn">Click Me!</button>
-          </div>
+          <NewsApi />
         </div>
       </div>
       <footer>

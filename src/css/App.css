@@ -81,7 +81,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  p {
+  p .copyright {
     animation: Title-shot infinite 3s alternate;
   }
 }

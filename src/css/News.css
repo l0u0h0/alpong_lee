@@ -1,0 +1,44 @@
+div .list {
+  display: flex;
+  text-align: left;
+}
+
+.thumnail {
+  margin-right: 1rem;
+}
+.thumnail img {
+  margin-top: 3rem;
+  display: block;
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.contents {
+}
+.contents h2 {
+  margin: 0;
+}
+.contents h2 a {
+  color: black;
+  text-decoration: none;
+}
+.contents h2 p {
+  margin: 0;
+  line-height: 1.5;
+  margin-top: 0%.5rem;
+  white-space: normal;
+}
+
+div .container_news {
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  @media and (max-width: 768px) {
+    width: 100%auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
