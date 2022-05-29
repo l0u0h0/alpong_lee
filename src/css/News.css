@@ -1,11 +1,23 @@
+div .container_news {
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+  width: 768px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  @media and (max-width: 768px) {
+    width: 100%auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .thumnail {
   margin-right: 1rem;
 }
 .thumnail img {
   margin-top: 3rem;
   display: block;
-  width: 160px;
-  height: 100px;
+  width: 200px;
   object-fit: cover;
 }
 
@@ -26,7 +38,20 @@
 }
 
 .News {
+  display: flex;
   height: 693px;
   transition: height 0.4s;
+  position: relative;
   overflow: hidden;
+}
+.News.hide {
+  height: 0;
+}
+.News .swiper {
+  width: calc(819px * 3 + 20px);
+  height: 553px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((819px * 3 + 20px) / -2);
 }
