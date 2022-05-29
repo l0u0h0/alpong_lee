@@ -8,6 +8,7 @@ import "./css/News.css";
 import MainComponent from "./components/MainComponent";
 import NewsApi from "./components/NewsApi";
 import { Swiper } from "swiper/react";
+import { Pagination } from "swiper";
 
 function App() {
   const thisYear = new Date().getFullYear();
@@ -27,9 +28,7 @@ function App() {
         </div>
         <div className="App-body-header">
           <div className="News">
-            <Swiper>
-              <NewsApi />
-            </Swiper>
+            <NewsApi />
             <div className="swiper-pagination"></div>
           </div>
         </div>
