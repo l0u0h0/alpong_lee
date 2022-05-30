@@ -50,7 +50,7 @@ export default function NewsApi() {
         centeredSlides
         loop
         autoplay={{ delay: 5000 }}
-        pagination={{ clickable: true, el: "swiper-pagination" }}
+        pagination={{ clickable: true, el: ".container-news .pagination" }}
       >
         {articles.map((article) => (
           <SwiperSlide>
@@ -58,6 +58,7 @@ export default function NewsApi() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="swiper-pagination"></div>
     </div>
   );
 }
