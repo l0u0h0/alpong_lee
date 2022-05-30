@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export default function NewsApi() {
   // NewsApi에서 받아온 값을 저장할 State, 초기값 null
