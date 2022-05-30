@@ -46,13 +46,16 @@ export default function NewsApi() {
   return (
     <div className="container-news">
       <Swiper
-        module={[Pagination]}
+        modules={[Pagination]}
         slidesPerView={3}
         spaceBetween={10}
         centeredSlides
         loop
         autoplay={{ delay: 5000 }}
-        pagination={{ clickable: true, el: ".container-news .pagination" }}
+        pagination={{
+          clickable: true,
+          el: ".container-news .swiper-pagination",
+        }}
       >
         {articles.map((article) => (
           <SwiperSlide>
