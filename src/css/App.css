@@ -1,9 +1,9 @@
 .App {
   text-align: center;
+  background-color: rgb(33, 33, 33);
 }
 
 .body {
-  background-color: white;
 }
 
 .btn {
@@ -35,7 +35,9 @@
 
 .App-logo {
   border-radius: 15px;
-  height: 40vmin;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 50px;
   pointer-events: none;
   transform: perspective(300px) rotateX(10deg);
 }
@@ -88,7 +90,7 @@
 
 .App-header {
   padding-top: 20px;
-  background-color: aliceblue;
+  background-color: #333;
   min-height: 100px;
 }
 

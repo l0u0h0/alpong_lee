@@ -17,7 +17,6 @@ function App() {
         <div className="App-body">
           <img src={logo_before} className="App-logo" alt="logo" />
           <img src={logo} className="App-logo" alt="logo" />
-          <p>간장 공장 공장장 강공장장</p>
           <MainComponent />
         </div>
         <div className="App-body-header"></div>
