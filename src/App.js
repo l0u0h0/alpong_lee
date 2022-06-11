@@ -6,16 +6,13 @@ import "./css/MainComponent.css";
 import "./css/Footer.css";
 import MainComponent from "./components/MainComponent";
 import Footer from "./components/FooterComponent";
+import Header from "./components/HeaderComponent";
 
 function App() {
   const thisYear = new Date().getFullYear();
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="App-title">
-          <img src={header} alt="Header" />
-        </div>
-      </header>
+      <Header header={header} />
       <div className="body">
         <div className="App-body">
           <img src={logo_before} className="App-logo" alt="logo" />
