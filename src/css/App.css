@@ -3,6 +3,10 @@
   background-color: rgb(33, 33, 33);
 }
 
+.body {
+  margin-top: 150px;
+}
+
 .btn {
   width: 130px;
   padding: 10px;
@@ -25,7 +29,6 @@
 }
 
 .App-body {
-  margin-top: 150px;
   font-size: 30pt;
   position: relative;
 }
@@ -88,7 +91,7 @@
 .App-header {
   padding-top: 20px;
   background-color: #333;
-  min-height: 100px;
+  min-height: 250px;
 }
 
 @keyframes Title-shot {
