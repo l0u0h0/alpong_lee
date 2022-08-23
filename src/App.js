@@ -1,6 +1,6 @@
-import "./css/App.css";
-import "./css/MainComponent.css";
-import "./css/Footer.css";
+import "./scss/App.scss";
+import "./scss/MainComponent.scss";
+import "./scss/Footer.scss";
 import Main from "./pages/Main";
 import NotFound from "./pages/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
     <header className="App-header">
       <div className="App-title">
-        <img src={header} alt="Header" />
+        <img src={header} alt="Header" className="title_img" />
       </div>
     </header>
   );
