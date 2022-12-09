@@ -10,10 +10,12 @@ import { ErrorBoundary } from "react-error-boundary";
 function App() {
   return (
     <ErrorBoundary FallbackComponent={Error}>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/*" element={<NotFound />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </ErrorBoundary>
   );
 }
