@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MainComponent() {
+const MainComponent = () => {
   return (
     <div className="canvas">
       <div className="building">
@@ -32,4 +32,6 @@ export default function MainComponent() {
       </div>
     </div>
   );
-}
+};
+
+export default MainComponent;
